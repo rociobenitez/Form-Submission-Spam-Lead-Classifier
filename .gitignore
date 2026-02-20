@@ -1,4 +1,5 @@
 # Python
+.pytest_cache/
 __pycache__/
 *.pyc
 *.pyo
@@ -8,9 +9,10 @@ __pycache__/
 venv/
 
 # Data
-data/raw/
-data/interim/
-data/processed/
+data/raw/*
+!data/raw/sample.csv
+data/interim/*
+data/processed/*
 
 # Models
 models/artifacts/
